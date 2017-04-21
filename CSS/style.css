@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+*{
+    box-sizing: border-box;
+    font-family: 'orygen',sans-serif;
+    color: black;
+}
+body,html{
+    padding: 0;
+    margin: 0;
+    background-color: #383C47;
+}
+
+.content{
+    width:800px;
+    background-color: lightgray;
+    margin: 50px;
+    border: 5px solid darkgreen;
+    z-index: 5;
+    box-shadow: 7px 7px 0 lightgreen;
+}
+
+header,
+.intro,
+.Exp-List,
+.DevTools,
+footer{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.intro,
+.Exp-List,
+.DevTools{
+    border-bottom: 1px solid #aaa;
+}
+
+header {
+    background-color: #90a9ee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer{
+    color: blue;
+    background-color: #d8c9c9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer * {
+    color: blue;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    
+}
+
+td, th {
+    border: 1px solid rgba(83, 131, 157, 0.94);
+    text-align: left;
+    padding: 8px;
+    color:darkblue;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(216, 195, 83, 0.36);
+}
+
+ol,li{
+    font-family: 'orygen',sans-serif;
+    font-size: 18px;
+    color: darkmagenta;
+}
